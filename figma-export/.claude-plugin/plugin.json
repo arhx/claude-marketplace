@@ -1,0 +1,11 @@
+{
+  "name": "figma-export",
+  "version": "1.0.0",
+  "description": "Специализированный агент для обработки и конвертации макетов из Figma через MCP. Анализирует узлы дизайна, корректирует структуру вёрстки, адаптирует под проектный стиль и помогает получить чистый, семантически корректный HTML с Tailwind.",
+  "author": {
+    "name": "arhx",
+    "email": "arhx.dev@gmail.com"
+  },
+  "keywords": ["figma", "design", "mcp", "html", "tailwind", "export"],
+  "license": "MIT"
+}

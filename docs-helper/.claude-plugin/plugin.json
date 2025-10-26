@@ -1,0 +1,11 @@
+{
+  "name": "docs-helper",
+  "version": "1.0.0",
+  "description": "Специализированный агент для получения справки по документации. Обращается к context7 MCP и помогает быстро найти точное описание, синтаксис или пример из официальных источников.",
+  "author": {
+    "name": "arhx",
+    "email": "arhx.dev@gmail.com"
+  },
+  "keywords": ["documentation", "context7", "mcp", "reference", "api-docs"],
+  "license": "MIT"
+}

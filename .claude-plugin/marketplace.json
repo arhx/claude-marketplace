@@ -1,0 +1,40 @@
+{
+  "name": "mcp-tools-marketplace",
+  "owner": {
+    "name": "arhx",
+    "email": "arhx.dev@gmail.com"
+  },
+  "description": "Marketplace with specialized MCP-powered plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "browser-tester",
+      "source": "./browser-tester",
+      "description": "Используй этого агента, когда нужно протестировать изменения или функционал сайта в браузере. Он подключается через chrome-devtools-mcp и проверяет интерфейс, сетевые запросы, ошибки в консоли, корректность отображения и интерактивность элементов.",
+      "version": "1.0.0",
+      "author": {
+        "name": "arhx"
+      },
+      "keywords": ["browser", "testing", "chrome-devtools", "mcp", "ui-testing"]
+    },
+    {
+      "name": "docs-helper",
+      "source": "./docs-helper",
+      "description": "Используй этого агента, когда нужно получить справку по документации, уточнить детали работы фреймворков, библиотек или языков. Агент обращается к context7 MCP и помогает быстро найти точное описание, синтаксис или пример из официальных источников. Подходит для технических разъяснений, примеров, и поиска решений на уровне документации.",
+      "version": "1.0.0",
+      "author": {
+        "name": "arhx"
+      },
+      "keywords": ["documentation", "context7", "mcp", "reference", "api-docs"]
+    },
+    {
+      "name": "figma-export",
+      "source": "./figma-export",
+      "description": "Используй этого агента, когда нужно обработать или конвертировать макеты из Figma через MCP. Он анализирует узлы дизайна, корректирует структуру вёрстки, адаптирует под проектный стиль и помогает получить чистый, семантически корректный HTML с Tailwind (или аналогичным фреймворком, если он используется в проекте). Рекомендуется при интеграции новых макетов, миграции дизайна, обновлении интерфейсов.",
+      "version": "1.0.0",
+      "author": {
+        "name": "arhx"
+      },
+      "keywords": ["figma", "design", "mcp", "html", "tailwind", "export"]
+    }
+  ]
+}

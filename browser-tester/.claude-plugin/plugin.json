@@ -1,0 +1,11 @@
+{
+  "name": "browser-tester",
+  "version": "1.0.0",
+  "description": "Специализированный агент для тестирования веб-интерфейсов через chrome-devtools-mcp. Проверяет интерфейс, сетевые запросы, ошибки в консоли, корректность отображения и интерактивность элементов.",
+  "author": {
+    "name": "arhx",
+    "email": "arhx.dev@gmail.com"
+  },
+  "keywords": ["browser", "testing", "chrome-devtools", "mcp", "ui-testing"],
+  "license": "MIT"
+}
