@@ -38,7 +38,7 @@
 
 **Инициализация:**
 ```bash
-/init
+/context-init
 ```
 
 ### 3. figma-export
@@ -92,7 +92,7 @@ _claude_marketplace/
 │   ├── agents/
 │   │   └── docs-helper.md
 │   ├── commands/
-│   │   └── init.md               # Команда инициализации
+│   │   └── context-init.md       # Команда инициализации
 │   ├── .mcp.json                 # context7 MCP
 │   └── README.md
 ├── figma-export/                 # Плагин для Figma
